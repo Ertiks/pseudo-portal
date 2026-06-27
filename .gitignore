@@ -1,0 +1,98 @@
+# ========================
+# Unity
+# ========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the Assets directory is part
+# of a larger .gitignore. In most cases it should NOT be ignored.
+# *.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*/*/*.bundle
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# ========================
+# Visual Studio / Rider
+# ========================
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.idea/
+
+# ========================
+# OS
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ========================
+# Meta Quest / OpenXR / VR Packages
+# ========================
+
+# Oculus / Meta XR SDK cache
+/[Aa]ssets/Oculus/
+/[Aa]ssets/OVR/
+# Keep the actual SDK assets tracked — only ignore generated/cache files
+[Aa]ssets/Oculus/Platform/Editor/OculusPlatformSettingsEditor.asset
+
+# XR Plugin Management generated settings
+/[Aa]ssets/XR/
+ProjectSettings/XRPackageMetadata.json
+
+# Android Logcat cache
+/[Ll]ogs/
+
+# Gradle (Android builds for Quest)
+.gradle/
+local.properties
+
+# ========================
+# Package Manager
+# ========================
+# Uncomment if you want to ignore locally installed packages
+# /[Pp]ackages/
+
+# ========================
+# CLAUDE.md
+# ========================
+# Contains internal AI assistant instructions — keep local, do not push
+CLAUDE.md
